@@ -1051,7 +1051,6 @@ vendor/etc/media_profiles_V1_0.xml
 vendor/etc/media_profiles_cliffs_v0.xml
 vendor/etc/media_profiles_cliffs_v1.xml
 vendor/etc/media_profiles_pineapple.xml
-vendor/etc/media_profiles_vendor.xml
 vendor/etc/mem_logger_config.xml
 vendor/etc/seccomp_policy/codec2.vendor.base-arm64.policy
 vendor/etc/seccomp_policy/codec2.vendor.ext-arm64.policy
