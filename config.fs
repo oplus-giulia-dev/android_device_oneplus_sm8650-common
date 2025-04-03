@@ -288,3 +288,9 @@ mode: 0771
 user: AID_MEDIA
 group: AID_MEDIA
 caps: 0
+
+[soccp_firmware/]
+mode: 0771
+user: AID_ROOT
+group: AID_SYSTEM
+caps: 0
