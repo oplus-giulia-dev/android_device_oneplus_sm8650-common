@@ -209,8 +209,8 @@ PRODUCT_PACKAGES += \
     ueventd.qcom.rc
 
 # Kernel
- PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/system_dlkm.modules.blocklist:$(TARGET_COPY_OUT_VENDOR_DLKM)/lib/modules/system_dlkm.modules.blocklist
+#PRODUCT_COPY_FILES += \
+#    $(LOCAL_PATH)/system_dlkm.modules.blocklist:$(TARGET_COPY_OUT_VENDOR_DLKM)/lib/modules/system_dlkm.modules.blocklist
 
 # Keymint
 PRODUCT_PACKAGES += \
@@ -331,9 +331,7 @@ PRODUCT_SHIPPING_API_LEVEL := $(BOARD_SHIPPING_API_LEVEL)
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    hardware/oplus \
-    kernel/oneplus/sm8650 \
-    kernel/oneplus/sm8650-modules
+    hardware/oplus
 
 # Storage
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
