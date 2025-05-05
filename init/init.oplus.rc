@@ -50,6 +50,12 @@ on post-fs-data
     mkdir /data/system/camera_rus 0777 cameraserver  cameraserver
     chown system system /sys/kernel/ois_control/dump_registers
 
+    # SIPA
+    chown audioserver audio /dev/sipa_cmd
+    chmod 0666 /dev/sipa_cmd
+    chown audioserver audio /dev/sipa_tool
+    chmod 0666 dev/sipa_tool
+
 on property:ro.boot.prjname=*
     # Display
     setprop ro.separate.soft ${ro.boot.prjname}
