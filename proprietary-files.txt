@@ -1121,10 +1121,6 @@ odm/lib64/libarc.ion.so
 odm/lib64/libarcsoft_ai_moon.so
 odm/lib64/libhta_hexagon_runtime_snpe.so
 
-# NFC
-odm/etc/nfc/libnfc-mtp-SN220.conf_22877:vendor/etc/libnfc-nxp.conf
-odm/etc/nfc/libnfc-nci.conf_22877:vendor/etc/libnfc-nci.conf
-
 # OSENSE
 odm/lib64/libosenseaidlhalclient.so
 odm/lib64/libosensenativeproxy_client.so
