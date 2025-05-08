@@ -643,6 +643,12 @@ vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc
 vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy
 vendor/lib64/vendor.qti.hardware.dsp@1.0.so
 
+# eSIM
+odm/bin/hw/vendor.oplus.hardware.esim@1.0-service
+odm/etc/init/esim@1.0-service.rc
+odm/etc/vintf/manifest/manifest_oplus_esim.xml
+odm/lib64/vendor.oplus.hardware.esim-V1-ndk.so
+
 # ESE
 vendor/lib64/vendor.qti.esepowermanager@1.0.so
 
