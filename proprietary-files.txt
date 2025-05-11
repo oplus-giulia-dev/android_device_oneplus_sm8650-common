@@ -420,9 +420,12 @@ vendor/lib64/libnspscheduler.so
 vendor/lib64/libnspsession.so
 vendor/lib64/libnspsuperresolutionserviceextension.so
 vendor/lib64/libnsptransaction.so
+vendor/lib64/libos.so
 vendor/lib64/libqcmaputils.so
 vendor/lib64/libqdi.so
 vendor/lib64/libqdp.so
+vendor/lib64/libsynx.so
+vendor/lib64/libthreadutils.so
 vendor/lib64/vendor.qti.hardware.embmssl@1.0.so
 vendor/lib64/vendor.qti.hardware.embmssl@1.1.so
 vendor/lib64/vendor.qti.hardware.embmsslaidl-V1-ndk.so
@@ -1013,6 +1016,7 @@ vendor/lib64/vendor.qti.hardware.limits@1.2.so
 
 # Media
 odm/etc/media_profiles_V1_0.xml
+odm/lib64/libc++_shared.so
 odm/lib64/libdolbydecoderprocessor.so
 odm/lib64/libdolbyeglcore.so
 odm/lib64/libdolbyencoderprocessor.so
@@ -1120,6 +1124,7 @@ odm/lib64/libQnnHtpV75CalculatorStub.so
 odm/lib64/libQnnHtpV75Stub.so
 odm/lib64/libQnnSaver.so
 odm/lib64/libQnnSystem.so
+odm/lib64/libSNPE.so
 odm/lib64/libaiboost.so
 odm/lib64/libaiboost_qnn_external_delegate.so;FIX_SONAME
 odm/lib64/libaiboost_qnn_external_delegate_te.so;FIX_SONAME
@@ -1128,11 +1133,13 @@ odm/lib64/libaiboost_sr.so
 odm/lib64/libaiboost_te.so;FIX_SONAME
 odm/lib64/libaiboost_ubwc.so
 odm/lib64/libams.so
+odm/lib64/libapsjpeg.so
 odm/lib64/libapsultrahdr.so
-odm/lib64/libarc.fusion.so
 odm/lib64/libarc.ion.so
 odm/lib64/libarcsoft_ai_moon.so
+odm/lib64/libarcsoft_qnnhtp.so
 odm/lib64/libhta_hexagon_runtime_snpe.so
+odm/lib64/libmpbase.so
 
 # OSENSE
 odm/lib64/libosenseaidlhalclient.so
@@ -1144,6 +1151,7 @@ odm/bin/hw/wlschgd
 odm/etc/charge.cfg
 odm/etc/init/vendor.oplus.hardware.charger-V6-service.rc
 odm/etc/vintf/manifest/manifest_oplus_charger_aidl.xml
+odm/lib64/libGaiaClient_vnd.so
 odm/lib64/vendor.oplus.hardware.charger-V6-ndk.so
 
 # OPLUS Display
@@ -1722,6 +1730,7 @@ vendor/etc/seccomp_policy/qsap_sensors.policy
 vendor/etc/vintf/manifest/vendor.qti.hardware.sensorscalibrate.xml
 vendor/lib64/libSensorsInterface.so
 vendor/lib64/libcwb_client_vendor.so
+vendor/lib64/libnanopb.so
 vendor/lib64/libqsh.so
 vendor/lib64/libsensor_calibration.so
 vendor/lib64/libsensorcal.so
