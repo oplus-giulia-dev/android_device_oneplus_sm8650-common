@@ -1,0 +1,17 @@
+#
+# Copyright (C) 2025 The LineageOS Project
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
+# OnePlus Ace 5
+on fs && property:ro.boot.prjname=23851
+    mount overlay overlay /odm/etc/camera lowerdir=/odm/giuliacn/etc/camera:/odm/etc/camera
+    mount overlay overlay /odm/firmware/fastchg lowerdir=/odm/giuliacn/firmware/fastchg:/odm/firmware/fastchg
+    mount overlay overlay /odm/lib64/camera lowerdir=/odm/giuliacn/lib64/camera:/odm/lib64/camera
+
+# OnePlus 13R
+on fs && property:ro.boot.prjname=23867
+    mount overlay overlay /odm/etc/camera lowerdir=/odm/giulia/etc/camera:/odm/etc/camera
+    mount overlay overlay /odm/firmware/fastchg lowerdir=/odm/giulia/firmware/fastchg:/odm/firmware/fastchg
+    mount overlay overlay /odm/lib64/camera lowerdir=/odm/giulia/lib64/camera:/odm/lib64/camera
