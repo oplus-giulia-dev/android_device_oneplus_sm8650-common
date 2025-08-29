@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus 12 (CPH2581_15.0.0.820(EX01)).
+## are from OnePlus 12 (CPH2581_15.0.0.840(EX01)).
 
 # Current blobs with ELF checks disabled:
 # audio.primary.pineapple depends on liblx-osal and vendor.qti.hardware.AGMIPC@1.0-impl, which are gnu makefile targets
@@ -470,6 +470,8 @@ odm/bin/irisConfig
 odm/etc/init/vendor.pixelworks.hardware.feature-service-lazy.rc
 odm/etc/vintf/manifest/vendor.pixelworks.hardware.display-service.xml
 odm/etc/vintf/manifest/vendor.pixelworks.hardware.feature-service.xml
+odm/etc/Custom_LUT_hlg.cube
+odm/etc/hdr3dlut_pq_qcom_grid_out_rgb.cube
 odm/lib64/libpwirisIoctlWrapper.so
 odm/lib64/libpwirisPCS.so
 odm/lib64/libpwiriscalibrate.so
@@ -1403,6 +1405,7 @@ vendor/lib64/hw/vendor.qti.hardware.servicetrackeraidl-impl.so
 
 # QVR
 vendor/bin/qvrdatalogger
+vendor/bin/qvrdatauploader
 vendor/bin/qvrservicetest
 vendor/etc/qvr/cfg/557/0/65536/mtplanai.txt
 vendor/etc/qvr/cfg/557/0/65536/mtplanai_6dof_config.xml
