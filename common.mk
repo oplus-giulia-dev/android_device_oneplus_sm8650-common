@@ -57,7 +57,6 @@ PRODUCT_PACKAGES += \
     libqcomvoiceprocessing \
     libvolumelistener \
     sound_trigger.primary.pineapple \
-    vendor.qti.audio-adsprpc-service.rc \
     vendor.qti.hardware.AGMIPC@1.0-impl
 
 AUDIO_HAL_DIR := hardware/qcom-caf/sm8650/audio/primary-hal
@@ -125,8 +124,6 @@ PRODUCT_PACKAGES += \
     libgpu_tonemapper \
     vendor.qti.hardware.display.allocator-service \
     vendor.qti.hardware.display.composer-service \
-    vendor.qti.hardware.display.composer-service.rc \
-    vendor.qti.hardware.display.composer-service.xml \
     vendor.qti.hardware.display.composer3-V1-ndk.vendor \
     vendor.qti.hardware.display.config-V2-ndk.vendor \
     vendor.qti.hardware.display.demura-service \

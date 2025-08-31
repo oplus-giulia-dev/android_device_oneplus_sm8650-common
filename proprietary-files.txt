@@ -62,7 +62,7 @@ vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_3.4_enpuv4.pmd
 
 # ADSP
 vendor/bin/adsprpcd
-vendor/bin/audioadsprpcd
+vendor/bin/audioadsprpcd;REQUIRED=vendor.qti.audio-adsprpc-service.rc
 vendor/bin/loadalgo
 vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc
 vendor/lib64/libadsp_default_listener.so
@@ -443,7 +443,7 @@ vendor/lib64/libhdrdynamicootf.so
 vendor/lib64/libhdrvivid.so
 
 # Display (HWC)
-vendor/bin/hw/vendor.qti.hardware.display.composer-service;DISABLE_DEPS
+vendor/bin/hw/vendor.qti.hardware.display.composer-service;DISABLE_DEPS;REQUIRED=vendor.qti.hardware.display.composer-service.rc,vendor.qti.hardware.display.composer-service.xml
 vendor/bin/qdcmss
 vendor/etc/init/qdcmss.rc
 vendor/etc/snapdragon_color_libs_config.xml
