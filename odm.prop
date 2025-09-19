@@ -11,7 +11,6 @@ oplus.camera.activityname=com.oplus.camera
 ro.oplus.system.camera.name=com.oplus.camera
 
 # Bluetooth
-persist.bluetooth.oplus.export.nv_overwrite_region=true
 persist.vendor.bluetooth.modem_nv_support=true
 
 # Camera
@@ -21,7 +20,6 @@ ro.hardware.camera=oemlayer
 persist.vendor.radio.force_on_dc=true
 persist.vendor.radio.virtualcomm=1
 ro.sys.reserve.integrate=true
-ro.vendor.oplus.radio.esim.feature=2
 ro.vendor.oplus.radio.project=1
 ro.vendor.oplus.radio.sar_regionmark=FCC
 
