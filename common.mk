@@ -365,6 +365,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 
 # Telephony
 PRODUCT_PACKAGES += \
+    OplusEsimSwitcher \
     OplusEuicc \
     extphonelib \
     extphonelib-product \
